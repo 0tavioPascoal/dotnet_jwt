@@ -107,4 +107,11 @@
 /home/otavio/www/csharp/dotnet-jwt/dotnet-jwt/obj/Debug/net8.0/dotnet-jwt.pdb
 /home/otavio/www/csharp/dotnet-jwt/dotnet-jwt/obj/Debug/net8.0/dotnet-jwt.genruntimeconfig.cache
 /home/otavio/www/csharp/dotnet-jwt/dotnet-jwt/obj/Debug/net8.0/ref/dotnet-jwt.dll
-/home/otavio/www/csharp/dotnet-jwt/dotnet-jwt/obj/Debug/net8.0/dotnet-jwt.csproj.CopyComplete
+/home/otavio/www/csharp/dotnet-jwt/dotnet-jwt/obj/Debug/net8.0/dotnet-jwt.sourcelink.json
+/home/otavio/www/csharp/dotnet-jwt/dotnet-jwt/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+/home/otavio/www/csharp/dotnet-jwt/dotnet-jwt/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/otavio/www/csharp/dotnet-jwt/dotnet-jwt/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+/home/otavio/www/csharp/dotnet-jwt/dotnet-jwt/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
+/home/otavio/www/csharp/dotnet-jwt/dotnet-jwt/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
+/home/otavio/www/csharp/dotnet-jwt/dotnet-jwt/bin/Debug/net8.0/BCrypt.Net-Next.dll
+/home/otavio/www/csharp/dotnet-jwt/dotnet-jwt/obj/Debug/net8.0/dotnet-jwt.csproj.Up2Date

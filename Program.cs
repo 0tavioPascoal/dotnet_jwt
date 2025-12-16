@@ -1,4 +1,8 @@
 using dotnet_jwt.Context;
+using dotnet_jwt.Repositories;
+using dotnet_jwt.Services;
+using dotnet_jwt.Services.Token;
+using dotnet_jwt.Services.User;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,6 +18,11 @@ string connectionString = builder.Configuration.GetConnectionString("DefaultStri
 
 builder.Services.AddDbContext<AppDbContext>(opt => 
     opt.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
+
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<ITokenService,  TokenService>();
+builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddScoped<IUserService,  UserService>();
 
 var app = builder.Build();
 
